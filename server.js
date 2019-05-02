@@ -35,7 +35,7 @@ if(process.env.NODE_ENV === 'production') {
   })
 }
 
-  const port = "https://salty-rogue-kitchen.herokuapp.com/";
-  // const port = process.env.PORT || 5001;
+  // const port = "https://salty-rogue-kitchen.herokuapp.com/";
+  const port = process.env.PORT || 5001;
 
   app.listen(port, () => console.log(`Server started on port ${port}`))
